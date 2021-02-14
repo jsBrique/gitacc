@@ -1,0 +1,7 @@
+setup.py
+gitacc/__init__.py
+gitacc.egg-info/PKG-INFO
+gitacc.egg-info/SOURCES.txt
+gitacc.egg-info/dependency_links.txt
+gitacc.egg-info/entry_points.txt
+gitacc.egg-info/top_level.txt
