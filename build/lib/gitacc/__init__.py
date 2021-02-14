@@ -1,3 +1,11 @@
+#!/usr/bin/python3
+'''
+MIT License
+
+Copyright (c) 2021 dobriq 
+
+'''
+
 import os
 import sys
 
