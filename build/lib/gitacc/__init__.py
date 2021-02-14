@@ -15,9 +15,11 @@ def acc():
 
     print('正在使用git加速器clone')
     target_path = os.getcwd()
-    
+    if len(sys.argv)!=3:
+        print('参数错误,请使用gitacc clone')
+    cmd=sys.argv[1]
     if len(sys.argv)==3 and cmd=='clone':
-        cmd=sys.argv[1]
+        
         # print(cmd)
         repo=sys.argv[2]
         repoacc=repo.replace('github.com','github.com.cnpmjs.org')
